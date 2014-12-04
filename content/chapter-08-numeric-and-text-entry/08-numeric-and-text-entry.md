@@ -31,8 +31,8 @@ method are longer than `max`, they will be truncated to fit.
 You can also set the alignment for the contents of the entry, controlling the
 horizontal positioning of the contents when the displayed text is shorter than
 the width of the entry. This is done by calling `Gtk.Entry.set_alignment(float xalign)`.
-The alignment parameter takes a value between from `0` (the entered text shall
-be aligned left) to `1` (the text is aligned right).
+The alignment parameter takes a value between `0` (the entered text shall
+be aligned left) and `1` (the text is aligned right).
 
 Placeholder text (text displayed in the entry when it is empty and unfocused)
 may be set using `Gtk.Entry.set_placeholder_text()`. This can be used to give a
